@@ -153,5 +153,5 @@ co(function * main () {
 
   console.log('Script has finished running')
   console.log(`${failures.length} videos failed to download`)
-  console.log([...failures])
+  console.log('Videos that failed ' + [...failures])
 }).then(result => console.log(result), error => console.log(error)).catch(error => console.log(error))

@@ -5,7 +5,8 @@ When the script is run, it saves the video series into the lib directory. There 
 
 ## How to get started
 `yarn install`  
-Update `auth.json` to have your username and password 
+Update `auth.json` to have your username and password   
+Then run `npm run make`
 
 ## How to use
 `node ./lib/index.js url-of-course-you-want-to-download`  
