@@ -6,7 +6,7 @@ import 'babel-polyfill'
 import co from 'co'
 import {username, password} from '../auth.json'
 
-const url = 'http://frontendmasters.com/login'
+const url = 'https://frontendmasters.com/login/'
 const course = process.argv[2]
 const idOfUserLogin = '#rcp_user_login'
 const idOfUserPass = '#rcp_user_pass'
